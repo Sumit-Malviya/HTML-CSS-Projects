@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  flex: 1;
+  height: 110px;
+
+  justify-content: end;
+  align-items: end;
+}
+
+.footer-section-1 {
+  display: flex;
+  flex: 1;
+  height: 40px;
+
+  justify-content: end;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.button-custom {
+  margin-right: 15px;
+  border-radius: 16px;
+  height: 32px;
+  min-width: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightsteelblue;
+  border: none;
+}
+
+.pen {
+  height: 16px;
+  width: 16px;
+  padding:8px;
+}
+
+.custom {
+  line-height: 12px;
+  padding-top: 10px;
+  padding-right: 5px;
+  font-size: 13px;
+
+}

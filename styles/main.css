@@ -1,0 +1,146 @@
+body {
+  background-image: url(/google-landing-page/Images/Background.jpg);
+}
+
+.main {
+  height: 550px;
+
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section-1 {
+  height: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+}
+
+.google-logo {
+  height: 92px;
+  width: 272px;
+}
+
+.main-section-2 {
+  height: 12%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.search-container {
+  border-radius: 22px;
+  background-color: rgb(255, 255, 255);
+  height: 48px;
+  width: 561px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  height: 44px;
+  width: 561px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 52px;
+  padding-right: 87px;
+  
+}
+
+.lens, .search-icon, .mic {
+  height: 24px;
+  width: 24px;
+}
+
+.search-icon {
+  padding-left: 16px;
+}
+
+input[type=text] {
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+}
+
+.button-mic, .button-lens {
+  height: 44px;
+  width: 26px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border: none;
+  background-color: white;
+  margin-right: 30px;
+  
+}
+
+
+.main-section-3 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.layer-1 {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+}
+
+.item-1 {
+  height: 112px;
+  width: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.grey-circle {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(241, 236, 236);
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  align-items: center;
+
+}
+
+
+.app {
+  height: 30px;
+  width: 30px; 
+}
+
+.layer-2 {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+}
+
+.item-2 {
+  height: 112px;
+  width: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.name {
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+
+

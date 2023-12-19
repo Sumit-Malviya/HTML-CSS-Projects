@@ -1,0 +1,41 @@
+.header {
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+}
+
+.header-section-1 {
+  height: 45px;
+  flex: 1;
+}
+
+.header-section-2 {
+  height: 45px;
+  width: 18%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.gmail, .images {
+  color: rgba(0,0,0,.87);
+  font-family: Arial;
+
+}
+
+.gmail:link, .images:link {
+  text-decoration: none;
+}
+
+.google-apps {
+  color: white;
+
+}
+
+.profile {
+  height: 40px;
+
+}
