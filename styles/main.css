@@ -8,6 +8,11 @@ body {
 
   display: flex;
   flex-direction: column;
+
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(85%, -50%);
 }
 
 .main-section-1 {
