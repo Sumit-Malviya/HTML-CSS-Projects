@@ -5,6 +5,10 @@
 
   justify-content: end;
   align-items: end;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 .footer-section-1 {
